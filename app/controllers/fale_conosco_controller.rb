@@ -11,8 +11,8 @@ class FaleConoscoController < ApplicationController
 			name = params[:name]
 	
 			if !from.blank? and !subject.blank? and !message.blank? and !name.blank?
-				#Emailer.deliver_contact(from, subject, message, name)
-				#return if request.xhr?
+				Emailer.deliver_contact(from, subject, message, name)
+				return if request.xhr?
 				flash[:notice] = 'Email enviado com sucesso'
 			else
 				flash[:notice] = 'Preencha todos os campos !'
