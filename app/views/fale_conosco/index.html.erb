@@ -1,0 +1,65 @@
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#form").validate();
+});
+</script>
+<h1>Fale Conosco</h1>
+<div id="fale_conosco_content">
+<h2>Preencha os dados do formulário:</h2>
+<% form_tag({:action => 'send_email'}, {:id => 'form', :name => 'form'}) do %>
+	<table border="0" cellpadding="0" class="formulario">
+		<tr>
+			<th width="100" align="right">Nome:</th>
+			<td><%= text_field_tag 'name', '', :maxlength => 50, :size => 30, :class =>'required' %><br /></td>
+		</tr>
+		<tr>
+			<th align="right">Email:</th>
+			<td><%= text_field_tag 'from', '', :maxlength => 30, :size => 25, :class =>'required email' %></td>
+		</tr>
+		<tr>
+			<th align="right">Assunto:</th>
+			<td><%= text_field_tag 'subject', '', :maxlength => 30, :size => 30, :class =>'required' %></td>
+		</tr>
+		<tr>
+			<th valign="top" align="right">Mensagem:</th>
+			<td><%= text_area_tag 'message', '', :rows => 5, :cols => 30, :class =>'required' %></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="right"><%= submit_tag "Enviar", :class => "submit_button" %></td>
+		</tr>
+		<tr>
+			<td colspan="2"><span id="campos_obrigatorio">Todos os campos são obrigatórios !</span></td>
+		</tr>					
+	</table>
+<% end %>
+</div>
+<div id="endereco">
+	<div id="endereco_content">
+		<span class="texto_bold_red">Dados da Escola</span>
+		<br />
+		<br />
+		<span class="texto_bold">Endereço:</span>
+		<br />
+		&nbsp;&nbsp; Rua Pedro Angela, 455
+		<br />
+		&nbsp;&nbsp; Vila Pinheiro - Botucatu - SP
+		<br />
+		&nbsp;&nbsp; CEP 18609-680
+		<br />
+		<br />
+		<span class="texto_bold">Telefone:</span>
+		<br />
+		&nbsp;&nbsp; 14 - 3815 - 8023
+		<br />
+		&nbsp;&nbsp; 14 - 9784 - 1250
+		<br />
+		<br />
+		<span class="texto_bold">Horário de Atendimento:</span>
+		<br />		
+		&nbsp;&nbsp; De segunda a sexta-feira, das 7 às 18 horas
+	</div>
+	<div id="endereco_side_content">
+		<img src="images/email.gif" height="80" width="80" style="border: 0px;" />
+	</div>
+</div>
+

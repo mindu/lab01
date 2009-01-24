@@ -1,0 +1,238 @@
+date/time         : 2009-01-24, 09:14:57, 966ms
+computer name     : MINDUX
+user name         : Familia <admin>
+registered owner  : MINDU / MINDUX
+operating system  : Windows XP Service Pack 2 build 2600
+system language   : Portuguese
+system up time    : 36 minutes 23 seconds
+program up time   : 39 seconds
+processor         : AMD Athlon(tm) XP 2000+
+physical memory   : 82/511 MB (free/total)
+free disk space   : (C:) 2,42 GB
+display mode      : 1440x900, 32 bit
+process id        : $4ac
+allocated memory  : 9,31 MB
+command line      : c:/usr/sbin/sendmail -i -t
+executable        : sendmail.exe
+exec. date/time   : 2008-12-02 21:09
+compiled with     : Delphi 2006/07
+madExcept version : 3.0h
+callstack crc     : $c324af88, $f39ccfd1, $f39ccfd1
+exception number  : 1
+exception class   : EIdSMTPReplyError
+exception message : Incorrect authentication data.
+
+main thread ($4b4):
+004520bf +04b sendmail.exe IdReplySMTP     533   +1 TIdReplySMTP.RaiseReplyError
+0043cede +012 sendmail.exe IdTCPConnection 562   +1 TIdTCPConnection.RaiseExceptionForLastCmdResult
+0043d1f5 +055 sendmail.exe IdTCPConnection 668  +10 TIdTCPConnection.CheckResponse
+0043ce58 +034 sendmail.exe IdTCPConnection 551   +2 TIdTCPConnection.GetResponse
+0043cf3c +058 sendmail.exe IdTCPConnection 571   +4 TIdTCPConnection.SendCmd
+0043d0e5 +059 sendmail.exe IdTCPConnection 639   +4 TIdTCPConnection.SendCmd
+00454408 +12c sendmail.exe IdSMTP          389  +31 TIdSMTP.Authenticate
+004aba5f +ff7 sendmail.exe sendmail        768 +315 initialization
+
+modules:
+00400000 sendmail.exe                c:\usr\sbin
+01110000 ssleay32.dll 0.9.8.4        C:\Ruby\bin
+01ef0000 libeay32.dll 0.9.8.4        C:\Ruby\bin
+10000000 avgrsstx.dll 8.0.0.134      C:\WINDOWS\system32
+59150000 Wship6.dll   5.1.2600.2180  C:\WINDOWS\system32
+5b1c0000 uxtheme.dll  6.0.2900.2180  C:\WINDOWS\system32
+5d510000 comctl32.dll 5.82.2900.2982 C:\WINDOWS\system32
+60b30000 hnetcfg.dll  5.1.2600.2180  C:\WINDOWS\system32
+71a10000 mswsock.dll  5.1.2600.3394  C:\WINDOWS\System32
+71a50000 wshtcpip.dll 5.1.2600.2180  C:\WINDOWS\System32
+71a60000 WS2HELP.dll  5.1.2600.2180  C:\WINDOWS\system32
+71a70000 WS2_32.dll   5.1.2600.2180  C:\WINDOWS\system32
+71a90000 wsock32.dll  5.1.2600.2180  C:\WINDOWS\system32
+746e0000 MSCTF.dll    5.1.2600.3319  C:\WINDOWS\system32
+75290000 msctfime.ime 5.1.2600.2180  C:\WINDOWS\system32
+76360000 IMM32.DLL    5.1.2600.2180  C:\WINDOWS\system32
+76380000 comdlg32.dll 6.0.2900.2180  C:\WINDOWS\system32
+76f00000 DNSAPI.dll   5.1.2600.3394  C:\WINDOWS\system32
+76f40000 WLDAP32.dll  5.1.2600.2180  C:\WINDOWS\system32
+76f90000 winrnr.dll   5.1.2600.2180  C:\WINDOWS\System32
+76fa0000 rasadhlp.dll 5.1.2600.2938  C:\WINDOWS\system32
+77100000 oleaut32.dll 5.1.2600.3266  C:\WINDOWS\system32
+773b0000 comctl32.dll 6.0.2900.2982  C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03
+774c0000 ole32.dll    5.1.2600.2726  C:\WINDOWS\system32
+77be0000 version.dll  5.1.2600.2180  C:\WINDOWS\system32
+77bf0000 msvcrt.dll   7.0.2600.2180  C:\WINDOWS\system32
+77db0000 RPCRT4.dll   5.1.2600.3173  C:\WINDOWS\system32
+77e50000 GDI32.dll    5.1.2600.3466  C:\WINDOWS\system32
+77ea0000 SHLWAPI.dll  6.0.2900.3395  C:\WINDOWS\system32
+77f20000 Secur32.dll  5.1.2600.2180  C:\WINDOWS\system32
+77f50000 ADVAPI32.dll 5.1.2600.2180  C:\WINDOWS\system32
+7c800000 kernel32.dll 5.1.2600.3119  C:\WINDOWS\system32
+7c900000 ntdll.dll    5.1.2600.2180  C:\WINDOWS\system32
+7c9c0000 shell32.dll  6.0.2900.3241  C:\WINDOWS\system32
+7e360000 USER32.dll   5.1.2600.3099  C:\WINDOWS\system32
+
+processes:
+000 Idle
+004 System                     normal
+22c smss.exe                   normal C:\WINDOWS\system32
+26c csrss.exe
+284 winlogon.exe               high   C:\WINDOWS\system32
+2bc services.exe               normal C:\WINDOWS\system32
+2c8 lsass.exe                  normal C:\WINDOWS\system32
+394 svchost.exe                normal C:\WINDOWS\system32
+3dc svchost.exe
+454 svchost.exe                normal C:\WINDOWS\System32
+4a4 svchost.exe
+564 svchost.exe
+60c Explorer.EXE               normal C:\WINDOWS
+68c spoolsv.exe                normal C:\WINDOWS\system32
+7a8 devldr32.exe               normal C:\WINDOWS\system32
+7d0 jusched.exe                normal C:\Arquivos de programas\Java\jre6\bin
+0b0 avgwdsvc.exe               normal C:\ARQUIV~1\AVG\AVG8
+0b8 ZSSnp211.exe               normal C:\WINDOWS
+0e8 Domino.exe                 normal C:\WINDOWS
+0f4 cvslock.exe                normal C:\Arquivos de programas\CVSNT
+0fc MsnMsgr.Exe                normal C:\Arquivos de programas\Windows Live\Messenger
+108 msmsgs.exe                 normal C:\Arquivos de programas\Messenger
+128 ctfmon.exe                 normal C:\WINDOWS\system32
+42c cvsservice.exe             normal C:\Arquivos de programas\CVSNT
+7c4 jqs.exe                    idle   C:\Arquivos de programas\Java\jre6\bin
+1c8 svchost.exe                normal C:\WINDOWS\system32
+21c wdfmgr.exe
+688 avgrsx.exe                 normal C:\ARQUIV~1\AVG\AVG8
+970 alg.exe
+aec wmiapsrv.exe               normal C:\WINDOWS\system32\wbem
+f98 usnsvc.exe                 normal C:\Arquivos de programas\Windows Live\Messenger
+ae8 mirc.exe                   normal C:\Arquivos de programas\mIRC
+ec4 TextPad.exe                normal C:\Arquivos de programas\TextPad 5
+f2c firefox.exe                normal C:\Arquivos de programas\Mozilla Firefox
+ef0 Dreamweaver.exe            normal C:\Arquivos de programas\Macromedia\Dreamweaver 8
+2c0 cmd.exe                    normal C:\WINDOWS\system32
+898 MySQLSystemTrayMonitor.exe normal C:\Arquivos de programas\MySQL\MySQL Tools for 5.0
+8d0 mysqld.exe                 normal C:\Arquivos de programas\MySQL\MySQL Server 5.1\bin
+608 TextPad.exe                normal C:\Arquivos de programas\TextPad 5
+804 ruby.exe                   normal C:\Ruby\bin
+4ac sendmail.exe               normal c:\usr\sbin
+
+hardware:
++ Adaptadores de rede
+  - VIA PCI 10/100Mb Fast Ethernet Adapter
++ Adaptadores de vídeo
+  - NVIDIA GeForce4 MX 4000 (Microsoft Corporation) (driver 5.6.7.3)
++ Computador
+  - Interface de energia e configuração avançada (ACPI) PC
++ Controladores de disquete
+  - Controlador padrão de disquete
++ Controladores de som, vídeo e jogo
+  - Codecs de vídeo
+  - Codecs de áudio
+  - Creative SBLive! Gameport
+  - Dispositivos de controle de mídia
+  - Dispositivos Legacy para captura de vídeo
+  - Drivers de áudio Legacy
+  - Valor de Creative SB Live! (WDM)
++ Controladores IDE ATA/ATAPI
+  - Canal IDE primário
+  - Canal IDE secundário
+  - VIA Bus Master IDE Controller
++ Controladores SCSI e RAID
+  - SCSI/RAID Host Controller
++ Controladores USB (barramento serial universal)
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - VIA Rev 5 or later USB Universal Host Controller
+  - VIA Rev 5 or later USB Universal Host Controller
+  - VIA Rev 5 or later USB Universal Host Controller
+  - VIA USB Enhanced Host Controller
++ Dispositivos de imagens
+  - ZSMC USB PC Camera (driver 211.7.430.7)
++ Dispositivos de sistema
+  - Alto-falante do sistema
+  - Barramento de E/S estendido
+  - Botão de recurso fixo ACPI
+  - Botão dormir ACPI
+  - Botão ligar/desligar ACPI
+  - CMOS do sistema/relógio em tempo real
+  - Controlador de acesso direto à memória
+  - Dispositivo de atualização de microcódigo
+  - Driver de BIOS de Gerenciamento de Sistema Microsoft
+  - Enumerador de dispositivos de software Plug and Play
+  - Gerenciador de discos lógicos
+  - Gerenciador de volumes
+  - Interface lógica da porta de impressão
+  - Microsoft ACPI-Compliant System
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - Porta de dados de leitura ISAPNP
+  - Processador de dados numéricos
+  - Redirecionador de dispositivo do Terminal Server
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - Timer do sistema
+  - VIA CPU to AGP Controller
++ Monitores
+  - SyncMaster 732NW/732NWPLUS,SyncMaster Magic CX732NW (driver 3.0.0.0)
++ Mouse e outros dispositivos apontadores
+  - Mouse compatível com PS/2
++ Portas (COM & LPT)
+  - Porta de comunicação (COM1)
+  - Porta de impressora ECP (LPT1)
++ Processadores
+  - AMD Athlon(tm) XP 2000+
++ Teclados
+  - Teclado padrão com 101/102 teclas ou Microsoft Natural PS/2 Keyboard
++ Unidades de disco
+  - SAMSUNG SV4002H
++ Unidades de DVD/CD-ROM
+  - SONY DVD RW DRU-830A
++ VSO devices
+  - pcouffin device for 32 bits systems (driver 1.37.0.0)
+
+cpu registers:
+eax = 00b2f710
+ebx = 00453ec0
+ecx = 00b2f710
+edx = 004520c4
+esi = 00000000
+edi = 0012fe50
+eip = 004520c4
+esp = 0012fd1c
+ebp = 0012fd60
+
+stack dump:
+0012fd1c  c4 20 45 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..E.............
+0012fd2c  30 fd 12 00 c4 20 45 00 - 10 f7 b2 00 c0 3e 45 00  0.....E......>E.
+0012fd3c  00 00 00 00 50 fe 12 00 - 60 fd 12 00 4c fd 12 00  ....P...`...L...
+0012fd4c  b8 fd 12 00 58 4b 40 00 - 60 fd 12 00 00 00 00 00  ....XK@.`.......
+0012fd5c  10 23 b4 00 6c fd 12 00 - e1 ce 43 00 80 68 ac 00  .#..l.....C..h..
+0012fd6c  90 fd 12 00 f8 d1 43 00 - 00 00 00 00 38 53 b2 00  ......C.....8S..
+0012fd7c  01 00 00 00 90 fd 12 00 - f4 fd 12 00 17 02 17 02  ................
+0012fd8c  80 68 ac 00 b0 fd 12 00 - 5b ce 43 00 00 00 00 00  .h......[.C.....
+0012fd9c  c0 3e 45 00 82 54 43 00 - 00 00 00 00 f4 fd 12 00  .>E..TC.........
+0012fdac  80 68 ac 00 d8 fd 12 00 - 3f cf 43 00 e4 fd 12 00  .h......?.C.....
+0012fdbc  58 4b 40 00 d8 fd 12 00 - c0 3e 45 00 00 00 00 00  XK@......>E.....
+0012fdcc  f4 fd 12 00 00 00 00 00 - 80 68 ac 00 04 fe 12 00  .........h......
+0012fddc  e8 d0 43 00 00 00 00 00 - 0c fe 12 00 58 4b 40 00  ..C.........XK@.
+0012fdec  04 fe 12 00 67 b7 4a 00 - eb 00 00 00 3c fe eb 00  ....g.J.....<...
+0012fdfc  00 00 00 00 80 68 ac 00 - 54 fe 12 00 0d 44 45 00  .....h..T....DE.
+0012fe0c  18 fe 12 00 58 4b 40 00 - 54 fe 12 00 24 fe 12 00  ....XK@.T...$...
+0012fe1c  58 4b 40 00 54 fe 12 00 - 5c fe 12 00 58 4b 40 00  XK@.T...\...XK@.
+0012fe2c  54 fe 12 00 38 fe 12 00 - 4f 5a 40 00 00 00 00 00  T...8...OZ@.....
+0012fe3c  00 00 00 00 00 00 00 00 - 50 6a b1 00 00 00 00 00  ........Pj......
+0012fe4c  00 00 00 00 80 68 ac 00 - c0 ff 12 00 65 ba 4a 00  .....h......e.J.
+
+disassembling:
+[...]
+004520ac       call    -$20081 ($432030)      ; IdReply.TIdReply.GetNumericCode
+004520b1       mov     ecx, eax
+004520b3       mov     dl, 1
+004520b5       mov     eax, [$45157c]
+004520ba       call    +$1d9 ($452298)        ; IdReplySMTP.EIdSMTPReplyError.CreateError
+004520bf     > call    -$4d448 ($404c7c)      ; System.@RaiseExcept
+004520c4 534   xor     eax, eax
+004520c6       pop     edx
+004520c7       pop     ecx
+004520c8       pop     ecx
+004520c9       mov     fs:[eax], edx
+[...]

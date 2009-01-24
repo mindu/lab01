@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Escola Estrelinha</title>
+  <%= stylesheet_link_tag 'application' %>
+  <%= javascript_include_tag 'jquery', 'jqueryvalidate', 'cmxforms' %>
+</head>
+<body>
+    <div id="header">
+		<div id="header_logo">
+			<img src="images/logo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
+		</div>
+		<div id="header_topo1">
+			<img src="images/topo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
+		</div>	
+		<div id="header_topo2">
+			<%= link_to "Inicio", inicio_path %>
+			<%= link_to "Informacoes", informacoes_path %>
+			<%= link_to "Calendario", calendario_path %>
+			<%= link_to "Fale Conosco", fale_conosco_path %>
+		</div>			
+    </div>
+    <div id="content">
+		<p style="color: green"><%= flash[:notice] %></p>
+		<%= yield  %>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+		<div id="footer_top">
+		</div>
+		<div id="footer_bottom">
+			<span id="rodape" class="rodape">Escola Estrelinha - Rua Pedro Angela, 455 - Vila Pinheiro - Botucatu / SP  - <span id="rodape_bold" class="texto_bold">14 - 3815 - 8023 / 14 - 9784 - 1250</span></span>
+		</div>		
+    </div>
+</body>
+</html>
