@@ -1,0 +1,20 @@
+<h1>Editing imagem</h1>
+
+<% form_for([@evento, @imagem]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :evento %><br />
+    <%= f.label @evento.titulo %>
+  </p>
+  <p>
+    <%= f.label :descricao %><br />
+    <%= f.text_area :descricao %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', [:admin, @evento, @imagem] %> |
+<%= link_to 'Back', admin_evento_imagems_path %>

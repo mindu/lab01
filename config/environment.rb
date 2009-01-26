@@ -67,6 +67,7 @@ Rails::Initializer.run do |config|
 end
 
 require "smtp_tls"
+require "will_paginate"
 
 ActionMailer::Base.default_content_type = "text/html"
 ActionMailer::Base.delivery_method = :sendmail

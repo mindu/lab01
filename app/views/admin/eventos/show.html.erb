@@ -1,0 +1,36 @@
+<p>
+  <b>Titulo:</b>
+  <%=h @evento.titulo %>
+</p>
+
+<p>
+  <b>Data:</b>
+  <%=h @evento.data %>
+</p>
+
+<p>
+  <b>Descricao:</b>
+  <%=h @evento.descricao %>
+</p>
+<%= link_to 'Imagems', admin_evento_imagems_path(@evento) %>
+<%= link_to 'Edit', edit_admin_evento_path(@evento) %> |
+<%= link_to 'Back', admin_eventos_path %>
+
+<br />
+
+<table>
+  <tr>
+    <th>Evento</th>
+    <th>Nome</th>
+    <th>Descricao</th>
+  </tr>
+
+<% for imagem in @evento.imagems %>
+  <tr>
+		<td><%= link_to image_tag(imagem.avatar.url(:thumb)), [:admin, @evento, imagem] %></td>
+    <td><%=h imagem.descricao %></td>
+    <td><%= link_to 'Edit', edit_admin_evento_imagem_path(@evento, imagem) %></td>
+    <td><%= link_to 'Destroy', [:admin, @evento, imagem], :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>

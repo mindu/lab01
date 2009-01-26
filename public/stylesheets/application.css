@@ -129,14 +129,18 @@ a{
 	border: 0px solid;
 	position:relative;
 	border-bottom:1px dashed #B9B9B9;
-	left: 5px;
 	padding: 5px;
+}
+.div_evento_item a {
+	text-decoration:none;
+}
+.div_evento_item a:hover {
+	text-decoration:underline;
 }
 .evento_item_titulo{
 	position:relative;
-	left: 10px;
+	left: 0px;
 	color:#336699;
-	vertical-align:middle;
 	font-size: 11px;
 	top: 2px;
 	font-weight:bold;

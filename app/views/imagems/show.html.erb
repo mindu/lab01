@@ -1,0 +1,17 @@
+<table>
+	<tr>
+			<td><%= image_tag(@imagem.avatar.url) %></td>
+	</tr>
+		<tr>
+			<td align="right"><%=h @imagem.nome %></td>
+	</tr>
+	<tr>
+			<td>
+				
+			<%= render :partial => "imagems/rating", :locals => { :imagem => @imagem } %>
+			 				
+				</td>
+		</tr>
+</table>
+</br>
+<%= link_to 'Back', evento_path(@evento, :page => session[:page]) %>

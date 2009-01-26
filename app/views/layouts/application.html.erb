@@ -4,23 +4,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Escola Estrelinha</title>
-  <%= stylesheet_link_tag 'application' %>
-  <%= javascript_include_tag 'jquery', 'jqueryvalidate', 'cmxforms' %>
+  <title>Escola Estrelinha :: <%= @load_jquery %></title>
+  <%= stylesheet_link_tag 'application', 'lightbox' %>
+  	<% if @load_jquery %>
+		<%= javascript_include_tag 'jquery', 'jqueryvalidate', 'cmxforms' %>
+  	<% end %>
+  	<% if @load_prototype %>
+		<%= javascript_include_tag :defaults, 'lightbox' %>
+  	<% end %>
 </head>
 <body>
     <div id="header">
 		<div id="header_logo">
-			<img src="images/logo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
+			<img src="../images/logo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
 		</div>
 		<div id="header_topo1">
-			<img src="images/topo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
+			<img src="../images/topo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
 		</div>	
 		<div id="header_topo2">
 			<%= link_to "Inicio", inicio_path %>
 			<%= link_to "Informacoes", informacoes_path %>
 			<%= link_to "Calendario", calendario_path %>
 			<%= link_to "Fale Conosco", fale_conosco_path %>
+			<%= link_to "Eventos", eventos_path %>
+			<%= link_to "Administrativo", admin_eventos_path %>
 		</div>			
     </div>
     <div id="content">

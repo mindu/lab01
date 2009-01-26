@@ -1,0 +1,22 @@
+<h1>Listing imagems</h1>
+
+<table>
+  <tr>
+    <th>Evento</th>
+    <th>Nome</th>
+    <th>Descricao</th>
+  </tr>
+<%=h @evento.data.strftime("%d/%m/%Y") %>
+<% for imagem in @imagems %>
+  <tr>
+		<td><%= link_to image_tag(imagem.avatar.url(:thumb)), [:admin, @evento, imagem] %></td>
+    <td><%=h imagem.descricao %></td>
+    <td><%= link_to 'Edit', edit_admin_evento_imagem_path(@evento, imagem) %></td>
+    <td><%= link_to 'Destroy', [:admin, @evento, imagem], :confirm => 'Tem certeza que quer excluir ?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<%= link_to 'Lista de Eventos', admin_eventos_path %> |
+<%= link_to 'Nova Imagem', new_admin_evento_imagem_path %>

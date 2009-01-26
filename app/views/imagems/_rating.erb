@@ -1,0 +1,33 @@
+<div id="star-ratings-block">
+<%= number_with_precision(@imagem.rating, 1) %>/5 Stars<br>
+<ul class='star-rating'>
+    <li class='current-rating' style='width:<%= (@imagem.rating * 30).to_i -%>px;'>
+          Currently <%= number_with_precision(@imagem.rating, 1) %>/5 Stars.
+        </li>
+    <li>
+        <%= link_to_remote( "1", {:url => { :controller => "imagems", 
+            :action => "rate", :id => @imagem.id, :rating => 1, :evento_id => @evento.id}},
+            :class => 'one-star', :name => '1 star out of 5') %>
+    </li>
+    <li>
+        <%= link_to_remote( "2", {:url => { :controller => "imagems", 
+            :action => "rate", :id => @imagem.id, :rating => 2, :evento_id => @evento.id}},
+            :class => 'two-stars', :name => '2 stars out of 5') %>    
+    </li>
+    <li>
+        <%= link_to_remote( "3", {:url => { :controller => "imagems", 
+            :action => "rate", :id => @imagem.id, :rating => 3, :evento_id => @evento.id}},
+            :class => 'three-stars', :name => '3 stars out of 5') %>
+    </li>
+    <li>
+        <%= link_to_remote( "4", {:url => { :controller => "imagems", 
+            :action => "rate", :id => @imagem.id, :rating => 4, :evento_id => @evento.id}},
+            :class => 'four-stars', :name => '4 stars out of 5') %>    
+    </li>
+    <li>
+        <%= link_to_remote( "5", {:url => { :controller => "imagems", 
+            :action => "rate", :id => @imagem.id, :rating => 5, :evento_id => @evento.id}},
+            :class => 'five-stars', :name => '5 stars out of 5') %>
+    </li>
+</ul>
+	</div>

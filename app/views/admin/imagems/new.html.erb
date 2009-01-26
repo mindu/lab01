@@ -1,0 +1,23 @@
+<h1>New imagem</h1>
+
+<% form_for([@evento, @imagem], :url => admin_evento_imagems_path, :html => { :multipart => true }) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :evento %><br />
+    <%= f.label @evento.titulo %>
+  </p>
+  <p>
+    <%= f.label :descricao %><br />
+    <%= f.text_area :descricao %>
+  </p>
+  <p>
+    <%= f.label 'Upload' %><br />
+    <%= f.file_field :avatar %>
+  </p>
+  
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', admin_evento_imagems_path %>

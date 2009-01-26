@@ -1,0 +1,12 @@
+<h1>Eventos</h1>
+
+<% for evento in @eventos %>
+
+	<div class="div_evento_item">
+		<span class="evento_item_titulo"><%=h evento.data.strftime("%d/%m/%Y") %>
+		<br/>
+		<span class="evento_item_desc"><%= link_to evento.titulo, evento %></span>
+		</span>
+	</div>
+<% end %>
+<%= will_paginate @eventos,  options = { :prev_label => "anterior", :next_label => "próximo"} %>

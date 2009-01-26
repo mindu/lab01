@@ -1,4 +1,6 @@
 class FaleConoscoController < ApplicationController
+
+  before_filter :load_js
   def index
   end
   
@@ -23,4 +25,7 @@ class FaleConoscoController < ApplicationController
 			end
 		end
 	end
+  def load_js
+    @load_jquery = true
+  end   	
 end

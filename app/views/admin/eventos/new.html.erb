@@ -1,0 +1,23 @@
+<h1>Cadastrar Novo Evento</h1>
+
+<% form_for([:admin, @evento]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :titulo %><br />
+    <%= f.text_field :titulo %>
+  </p>
+  <p>
+    <%= f.label :data %><br />
+    <%= f.date_select :data %>
+  </p>
+  <p>
+    <%= f.label :descricao %><br />
+    <%= f.text_area :descricao, :rows => 5, :cols => 30 %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Lista de Eventos', admin_eventos_path %>
