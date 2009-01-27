@@ -19,4 +19,11 @@ class EventosController < ApplicationController
   def load_js
     @load_prototype = true
   end   
+  def teste
+  
+    @evento = Evento.find(params[:id])
+    respond_to do |format|
+      format.html { render :layout => false }
+    end
+  end  
 end

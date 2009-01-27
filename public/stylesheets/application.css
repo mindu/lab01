@@ -343,3 +343,40 @@ div.error { display: none; }
 input:focus { border: 1px dotted black; }
 input.error { border: 1px dotted red; }
 form.cmxform .gray * { color: gray; }
+
+.div_eventos{
+	width: 250px;
+	border: 0px solid;
+	position:relative;
+	border-bottom:1px dashed #B9B9B9;
+	padding:5px;
+}
+.div_eventos a {
+	text-decoration:none;
+}
+.div_eventos a:hover {
+	text-decoration:underline;
+}
+.div_paginacao{
+	width: 250px;
+	border: 0px solid;
+	padding:5px;
+	text-align:center;
+	position:relative;
+	float:left;
+}
+#eventos_content{
+	position: relative;
+	float:left;
+	border: 0px solid #000000;
+	width: 260px;
+	margin: 0 auto;
+}
+#fotos_content{
+	position: relative;
+	float: left;
+	border: 1px dashed #000000;
+	width: 520px;
+	padding:5px;
+	left: 5px;
+}
