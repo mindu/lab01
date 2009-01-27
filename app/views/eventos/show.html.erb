@@ -15,7 +15,7 @@
 </div>
 
 		<% for imagem in @evento.imagems %>
-		<%= lightbox_image_tag(imagem.avatar.url(:thumb), imagem.avatar.url(:large), {:class=>"images"}, :title => imagem.descricao) %> 								
+		<%= link_to image_tag(imagem.avatar.url(:thumb)), imagem.avatar.url(:large) %>  								
 		<% end %>
 <br/>
 <%= link_to 'Back', eventos_path %>
