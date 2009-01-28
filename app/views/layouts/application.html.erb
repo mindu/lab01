@@ -5,12 +5,15 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Escola Estrelinha :: <%= @load_jquery %></title>
-  <%= stylesheet_link_tag 'application', 'lightbox' %>
+  <%= stylesheet_link_tag 'application' %>
   	<% if @load_jquery %>
 		<%= javascript_include_tag 'jquery', 'jqueryvalidate', 'cmxforms' %>
   	<% end %>
   	<% if @load_prototype %>
-		<%= javascript_include_tag :defaults %>
+		<%= stylesheet_link_tag 'lightbox' %>
+		<script type="text/javascript" src="/javascripts/prototype.js"></script>
+		<script type="text/javascript" src="/javascripts/scriptaculous.js?load=effects,builder"></script>
+		<script type="text/javascript" src="/javascripts/lightbox.js"></script>
   	<% end %>
 </head>
 <body>
