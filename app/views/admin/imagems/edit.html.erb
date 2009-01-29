@@ -1,6 +1,6 @@
 <h1>Alterar Descrição da Imagem</h1>
 
-<% form_for([@evento, @imagem]) do |f| %>
+<% form_for([:admin, @evento, @imagem]) do |f| %>
   <%= f.error_messages %>
 
   <p>

@@ -50,7 +50,8 @@ class Admin::EventosController < ApplicationController
     respond_to do |format|
       if @evento.save
         flash[:notice] = 'Evento cadastrado com sucesso !'
-        format.html { redirect_to([:admin, @evento]) }
+        #format.html { redirect_to([:admin, @evento]) }
+		format.html { redirect_to(admin_eventos_path) }
         format.xml  { render :xml => @evento, :status => :created, :location => @evento }
       else
         format.html { render :action => "new" }
@@ -67,7 +68,8 @@ class Admin::EventosController < ApplicationController
     respond_to do |format|
       if @evento.update_attributes(params[:evento])
         flash[:notice] = 'Evento atualizado com sucesso !'
-        format.html { redirect_to([:admin, @evento]) }
+        #format.html { redirect_to([:admin, @evento]) }
+		format.html { redirect_to(admin_eventos_path) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

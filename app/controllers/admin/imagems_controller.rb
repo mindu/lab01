@@ -48,8 +48,12 @@ class Admin::ImagemsController < ApplicationController
 
     respond_to do |format|
       if @imagem.save
-        flash[:notice] = 'Imagem was successfully created.'
-        format.html { redirect_to([:admin,@evento, @imagem]) }
+        flash[:notice] = 'Imagem cadastrada com sucesso !'
+        #format.html { redirect_to([:admin,@evento, @imagem]) }
+        # format.html { render :action => "index"  }
+        #format.html { redirect_to(admin_evento_imagems_path) }		
+		format.html { redirect_to(admin_evento_imagems_url) }
+		
         format.xml  { render :xml => @imagem, :status => :created, :location => @imagem }
       else
         format.html { render :action => "new" }
@@ -65,8 +69,9 @@ class Admin::ImagemsController < ApplicationController
 
     respond_to do |format|
       if @imagem.update_attributes(params[:imagem])
-        flash[:notice] = 'Imagem was successfully updated.'
-        format.html { redirect_to([:admin,@imagem]) }
+        flash[:notice] = 'Imagem alterada com sucesso !'
+        #format.html { redirect_to([:admin,@imagem]) }
+		format.html { redirect_to(admin_evento_imagems_url) }		
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -80,7 +85,7 @@ class Admin::ImagemsController < ApplicationController
   def destroy
     @imagem = @evento.imagems.find(params[:id])
     @imagem.destroy
-
+    flash[:notice] = 'Imagem excluida com sucesso !'
     respond_to do |format|
       format.html { redirect_to(admin_evento_imagems_url) }
       format.xml  { head :ok }
