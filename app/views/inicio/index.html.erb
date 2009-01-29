@@ -29,22 +29,21 @@
 </div>
 <div id="div_evento" class="div_evento">
 	<h1>Últimos Eventos</h1>
-<% count = 0 %>
 <% 
+	count = 0 
 	for evento in @eventos 
-	
 %>
 
 	<div class="div_evento_item" <%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
 		<span class="evento_item_titulo"><%= link_to evento.data.strftime("%d/%m/%Y") + ' - ' + evento.titulo, evento %>
 		<br/>
-		<span class="evento_item_desc"><%= h evento.descricao %></span>
+		<span class="evento_item_desc"><%= link_to evento.descricao, evento %></span>
 		</span>
 	</div>
 
 <% 
 	count = count + 1
-end 
+	end 
 %>	
 </div>
 <div id="div_evento_fim" class="div_evento_fim"> 

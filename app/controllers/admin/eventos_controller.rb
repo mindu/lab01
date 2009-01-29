@@ -49,7 +49,7 @@ class Admin::EventosController < ApplicationController
 
     respond_to do |format|
       if @evento.save
-        flash[:notice] = 'Evento was successfully created.'
+        flash[:notice] = 'Evento cadastrado com sucesso !'
         format.html { redirect_to([:admin, @evento]) }
         format.xml  { render :xml => @evento, :status => :created, :location => @evento }
       else
@@ -66,7 +66,7 @@ class Admin::EventosController < ApplicationController
 
     respond_to do |format|
       if @evento.update_attributes(params[:evento])
-        flash[:notice] = 'Evento was successfully updated.'
+        flash[:notice] = 'Evento atualizado com sucesso !'
         format.html { redirect_to([:admin, @evento]) }
         format.xml  { head :ok }
       else
@@ -81,7 +81,7 @@ class Admin::EventosController < ApplicationController
   def destroy
     @evento = Evento.find(params[:id])
     @evento.destroy
-
+    flash[:notice] = 'Evento excluido com sucesso !'	
     respond_to do |format|
       format.html { redirect_to(admin_eventos_url) }
       format.xml  { head :ok }

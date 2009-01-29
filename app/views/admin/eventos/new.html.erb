@@ -4,20 +4,22 @@
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :titulo %><br />
-    <%= f.text_field :titulo %>
+    <%= f.label :data %><br />
+    <%= f.date_select :data, :order => [:day, :month, :year] %>
   </p>
   <p>
-    <%= f.label :data %><br />
-    <%= f.date_select :data %>
-  </p>
+    <%= f.label :titulo %><br />
+    <%= f.text_field :titulo %>
+  </p>  
   <p>
     <%= f.label :descricao %><br />
     <%= f.text_area :descricao, :rows => 5, :cols => 30 %>
   </p>
   <p>
-    <%= f.submit "Create" %>
+    <%= f.submit "Cadastrar" %>
   </p>
 <% end %>
 
-<%= link_to 'Lista de Eventos', admin_eventos_path %>
+<%= link_to 'Voltar à Lista de Eventos', admin_eventos_path %>
+<br />
+<br />

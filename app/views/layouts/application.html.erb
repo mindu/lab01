@@ -19,18 +19,18 @@
 <body>
     <div id="header">
 		<div id="header_logo">
-			<img src="../images/logo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
 		</div>
 		<div id="header_topo1">
-			<img src="../images/topo01.jpg" alt="Escola Estrelinha" style="border: 0px;" />
 		</div>	
 		<div id="header_topo2">
-			<%= link_to "Inicio", inicio_path %>
-			<%= link_to "Informacoes", informacoes_path %>
-			<%= link_to "Calendario", calendario_path %>
-			<%= link_to "Fale Conosco", fale_conosco_path %>
-			<%= link_to "Eventos", eventos_path %>
-			<%= link_to "Administrativo", admin_eventos_path %>
+			<div id="header_topo2_menu">
+				<%= link_to "Inicio", inicio_path %> |
+				<%= link_to "Informacoes", informacoes_path %> |
+				<%= link_to "Calendario", calendario_path %> |
+				<%= link_to "Fale Conosco", fale_conosco_path %> |
+				<%= link_to "Eventos", eventos_path %> |
+				<%= link_to "Administrativo", admin_eventos_path %>
+			</div>
 		</div>			
     </div>
     <div id="content">

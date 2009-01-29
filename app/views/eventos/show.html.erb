@@ -1,21 +1,23 @@
 <h1>Detalhes do Evento</h1>
-<div id="endereco">
-	<div id="evento_content">
-
-		<span class="texto_bold">Data:</span>
-		&nbsp;&nbsp; <%=h @evento.data.strftime("%d/%m/%Y") %>
+<div id="fotos_content2">
+	<div id="div_evento_content">
+	
+		<%=h @evento.data.strftime("%d/%m/%Y") %> - <%=h @evento.titulo %>
 		<br />
-		<span class="texto_bold">Titulo:</span>
-		&nbsp;&nbsp; <%=h @evento.titulo %>
+		<%=h @evento.descricao %>
 		<br />
-		<span class="texto_bold">Descrição:</span>
-		<br />		
-		&nbsp;&nbsp; <%=h @evento.descricao %>
+		<br />
+		<% for imagem in @evento.imagems %>
+			<%= link_to image_tag(imagem.avatar.url(:thumb)), 
+			imagem.avatar.url(:large), {:rel => 'lightbox[col]', :class => 'images', :title => imagem.descricao} %> 
+		<% 	end %>	
+	
 	</div>
 </div>
-
-		<% for imagem in @evento.imagems %>
-		<%= link_to image_tag(imagem.avatar.url(:thumb)), imagem.avatar.url(:large), {:rel => 'lightbox[col]', :class => 'images'} %>  								
-		<% end %>
-<br/>
-<%= link_to 'Back', eventos_path %>
+<div id="div_foto_fim" class="div_foto_fim"> 
+	<span><%= link_to "ver todos os eventos (+)", eventos_path %></span>
+</div>
+<br />
+<br />
+<br />
+<br />

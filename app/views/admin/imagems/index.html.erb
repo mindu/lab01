@@ -1,22 +1,47 @@
-<h1>Listing imagems</h1>
+<h1>Lista de Imagens</h1>
 
-<table>
+<%=h @evento.data.strftime("%d/%m/%Y") %> - <%=h @evento.titulo %>
+<br />
+<%=h @evento.descricao %>
+<br />
+<h1>Imagens</h1>
+<table border="0" width="700" align="center">
   <tr>
-    <th>Evento</th>
-    <th>Nome</th>
-    <th>Descricao</th>
+    <td colspan="4" align="right"><%= link_to 'Voltar à Lista de Eventos', admin_eventos_path %> |
+<%= link_to 'Cadastrar Nova Imagem', new_admin_evento_imagem_path %></td>  
   </tr>
-<%=h @evento.data.strftime("%d/%m/%Y") %>
-<% for imagem in @imagems %>
   <tr>
-		<td><%= link_to image_tag(imagem.avatar.url(:thumb)), [:admin, @evento, imagem] %></td>
+    <td colspan="4">&nbsp;</td>  
+  </tr>  
+  <tr>
+    <th width="20%">Imagem</th>
+    <th>Descrição</th>
+    <th colspan="2" width="20%">Opções</th>
+  </tr>
+<% 
+	count = 0
+	for imagem in @imagems 
+%>
+  <tr <%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
+	<td align="center"><%= link_to image_tag(imagem.avatar.url(:thumb)), [:admin, @evento, imagem] %></td>
     <td><%=h imagem.descricao %></td>
-    <td><%= link_to 'Edit', edit_admin_evento_imagem_path(@evento, imagem) %></td>
-    <td><%= link_to 'Destroy', [:admin, @evento, imagem], :confirm => 'Tem certeza que quer excluir ?', :method => :delete %></td>
+    <td align="center"><%= link_to 'Alterar', edit_admin_evento_imagem_path(@evento, imagem) %></td>
+    <td align="center"><%= link_to 'Excluir', [:admin, @evento, imagem], :confirm => 'Tem certeza que deseja realmente excluir ?', :method => :delete,  :style => 'color: red;' %></td>
   </tr>
-<% end %>
+<% 
+	count = count + 1
+	end 
+%>
+  <tr>
+    <td colspan="4">&nbsp;</td>  
+  </tr> 
+  <tr>
+    <td colspan="4" align="right"><%= link_to 'Voltar à Lista de Eventos', admin_eventos_path %> |
+<%= link_to 'Cadastrar Nova Imagem', new_admin_evento_imagem_path %></td>  
+  </tr>   
 </table>
 
 <br />
-<%= link_to 'Lista de Eventos', admin_eventos_path %> |
-<%= link_to 'Nova Imagem', new_admin_evento_imagem_path %>
+
+<br />
+<br />

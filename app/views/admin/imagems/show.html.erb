@@ -1,11 +1,17 @@
+<h1>Imagem</h1>
 <table>
+	<tr>
+			<td><%= link_to 'Voltar à Lista de Imagens', admin_evento_imagems_path %></td>
+	</tr>
 	<tr>
 			<td><%= image_tag @imagem.avatar.url(:large) %></td>
 	</tr>
 		<tr>
 			<td align="right"><%=h @imagem.descricao %></td>
 	</tr>
+	<tr>
+			<td><%= link_to 'Voltar à Lista de Imagens', admin_evento_imagems_path %></td>
+	</tr>	
 </table>
-</br>
-<%= link_to 'Edit', edit_admin_evento_imagem_path(@evento, @imagem) %> |
-<%= link_to 'Back', admin_evento_imagems_path %>
+<br />
+<br />

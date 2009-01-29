@@ -1,21 +1,26 @@
 <h1>Eventos</h1>
 <div id="eventos_content">
-<% for evento in @eventos %>
+<% 
+	count = 0
+	for evento in @eventos 
+%>
 
-	<div class="div_eventos">
-		<span class="evento_item_titulo"><%=h evento.data.strftime("%d/%m/%Y") %>
-		<br/>
-		<span class="evento_item_desc"><%= link_to evento.titulo, evento %></span>
+	<div class="div_eventos"<%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
+		<span class="evento_item_titulo">
+			<%= link_to_remote evento.data.strftime("%d/%m/%Y") + ' - ' + evento.titulo, :update => 'fotos_content', :url =>{ :controller=> 'eventos', :action => 'teste', :id => evento.id} %>
 		</span>
-		<br />
-		<br />
-<%= link_to_remote 'teste ' + evento.id.to_s, :update => 'fotos_content', :url =>{ :controller=> 'eventos', :action => 'teste', :id => evento.id} %>
 	</div>
-<% end %>
+<% 
+	count = count + 1
+	end 
+%>
 <div class="div_paginacao">
 <%= will_paginate @eventos,  options = { :prev_label => "anterior", :next_label => "próximo"} %>
 </div>
 </div>
 <div id="fotos_content">
-	fotos aqui !!
+	Selecione um evento
 </div>
+
+<br />
+<br />

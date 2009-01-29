@@ -1,24 +1,24 @@
-<h1>Editing evento</h1>
+<h1>Alterar Evento</h1>
 
 <% form_for([:admin, @evento]) do |f| %>
   <%= f.error_messages %>
-
+  <p>
+    <%= f.label :data %><br />
+    <%= f.date_select :data, :order => [:day, :month, :year] %>
+  </p>
   <p>
     <%= f.label :titulo %><br />
     <%= f.text_field :titulo %>
   </p>
   <p>
-    <%= f.label :data %><br />
-    <%= f.date_select :data %>
-  </p>
-  <p>
     <%= f.label :descricao %><br />
-    <%= f.text_area :descricao %>
+    <%= f.text_area :descricao, :rows => 5, :cols => 30 %>
   </p>
   <p>
-    <%= f.submit "Update" %>
+    <%= f.submit "Alterar" %>
   </p>
 <% end %>
 
-<%= link_to 'Show', [:admin, @evento] %> |
-<%= link_to 'Back', admin_eventos_path %>
+<%= link_to 'Voltar à Lista de Eventos', admin_eventos_path %>
+<br />
+<br />

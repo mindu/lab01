@@ -1,19 +1,13 @@
-<h1>Detalhes do Evento</h1>
-<div id="endereco">
-	<div id="evento_content">
+<div id="div_evento_content">
 
-		<span class="texto_bold">Data:</span>
-		&nbsp;&nbsp; <%=h @evento.data.strftime("%d/%m/%Y") %>
-		<br />
-		<span class="texto_bold">Titulo:</span>
-		&nbsp;&nbsp; <%=h @evento.titulo %>
-		<br />
-		<span class="texto_bold">Descrição:</span>
-		<br />		
-		&nbsp;&nbsp; <%=h @evento.descricao %>
-	</div>
+	<%=h @evento.data.strftime("%d/%m/%Y") %> - <%=h @evento.titulo %>
+	<br />
+	<%=h @evento.descricao %>
+	<br />
+	<br />
+	<% for imagem in @evento.imagems %>
+		<%= link_to image_tag(imagem.avatar.url(:thumb)), 
+		imagem.avatar.url(:large), {:rel => 'lightbox[col]', :class => 'images', :title => imagem.descricao} %> 
+	<% 	end %>	
+
 </div>
-
-		<% for imagem in @evento.imagems %>
-		<%= link_to image_tag(imagem.avatar.url(:thumb)), imagem.avatar.url(:large), {:rel => 'lightbox[col]', :class => 'images'} %> 								
-		<% end %>

@@ -1,27 +1,35 @@
 <h1>Lista de Eventos</h1>
 
-<table border="0" cellpadding="2" cellspacing="2" width="500" align="center">
+<table border="0" cellpadding="2" cellspacing="0" width="700" align="center">
   <tr>
-    <td colspan="5" align="right"><%= link_to 'Novo Evento', new_admin_evento_path %></td>  
+    <td colspan="5" align="right"><%= link_to 'Cadastrar Novo Evento', new_admin_evento_path %></td>  
   </tr>
   <tr>
     <td colspan="5">&nbsp;</td>  
   </tr>  
   <tr>
-    <th>Data</th>  
-    <th width="80%">Titulo</th>
+    <th width="10%">Data</th>  
+    <th width="50%">Titulo</th>
     <th colspan="3">Opções</th>
   </tr>
-
-<% for evento in @eventos %>
-  <tr>
+<% 
+	count = 0
+	for evento in @eventos 
+%>
+  <tr <%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
     <td><%=h evento.data.strftime("%d/%m/%Y") %></td>  
     <td><%=h evento.titulo %></td>
-    <td><%= link_to 'Imagens', admin_evento_imagems_path(evento) %></td>
-    <td><%= link_to 'Editar', edit_admin_evento_path(evento) %></td>
-    <td><%= link_to 'Excluir', [:admin, evento], :confirm => 'Are you sure?', :method => :delete %></td>
+    <td rowspan="2" valign="middle"><%= link_to 'Adicionar/Remover Imagens', admin_evento_imagems_path(evento) %></td>
+    <td rowspan="2" valign="middle"><%= link_to 'Alterar', edit_admin_evento_path(evento) %></td>
+    <td rowspan="2" valign="middle"><%= link_to 'Excluir', [:admin, evento], :confirm => 'Tem certeza que deseja realmente excluir ?', :method => :delete, :style => 'color: red;' %></td>
   </tr>
-<% end %>
+  <tr <%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
+    <td colspan="2"><%=h evento.descricao %></td>  
+  </tr>  
+<% 
+	count = count + 1
+	end 
+%>
   <tr>
     <td colspan="5">&nbsp;</td>  
   </tr>  
