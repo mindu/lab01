@@ -1,59 +1,71 @@
 <div id="div_mensagem_direcao" class="div_mensagem_direcao">
-	<h1>Mensagem da Direção</h1>
-	<h2>
-		Prezados Pais:
-	</h2>
-	A Escola Estrelinha hoje, com mais de 15 anos de fundação, acredita em uma educação transformadora, que propicie ao educando 
-	a possibilidade de inserir-se socialmente, com a plena realização das diversas dimensões de sua personalidade.
-	<br/>
-	<br/>																		
-	Desde então, tem-se destacado como referência em educação.
-	Segundo a diretora, a construção do conhecimento é feita a partir da leitura que a própria criança faz de seu mundo, ou seja,
-	de sua realidade. 
-	<img src="images/diretores.jpg" alt="Diretores" vspace="10" align="left" />									
-	Ela aprende vivendo, experimentando, fazendo descobertas.
-	<br/>
-	<br/>																		
-	Dessa forma, é capaz de exercitar seu pensamento e criatividade na resolução dos problemas do seu cotidiano, construindo, 
-	desde cedo, uma base sólida para sua futura atuação na sociedade.
-	<br/>									
-	<br/>									
-	Ficamos honrados pela confiança depositada em nossa Equipe; que estuda e amplia seus conhecimentos constantemente.
-	<br/>
-	<br/>	
-	<span id="texto_italico">
-		Elaine Silva Winckler e Eduardo Winckler
-		<br/>
-		Diretores
-	</span>
+        <h1>Mensagem da Direção</h1>
+        <h2>
+                Prezados Pais:
+        </h2>
+        A Escola Estrelinha hoje, com mais de 15 anos de fundação, acredita em uma educação transformadora, que propicie ao educando
+        a possibilidade de inserir-se socialmente, com a plena realização das diversas dimensões de sua personalidade.
+        <br/>
+        <br/>
+        Desde então, tem-se destacado como referência em educação.
+        Segundo a diretora, a construção do conhecimento é feita a partir da leitura que a própria criança faz de seu mundo, ou seja,
+        de sua realidade.
+        <img src="images/diretores.jpg" alt="Diretores" vspace="10" align="left" />
+        Ela aprende vivendo, experimentando, fazendo descobertas.
+        <br/>
+        <br/>
+        Dessa forma, é capaz de exercitar seu pensamento e criatividade na resolução dos problemas do seu cotidiano, construindo,
+        desde cedo, uma base sólida para sua futura atuação na sociedade.
+        <br/>
+        <br/>
+        Ficamos honrados pela confiança depositada em nossa Equipe; que estuda e amplia seus conhecimentos constantemente.
+        <br/>
+        <br/>
+        <span id="texto_italico">
+                Elaine Silva Winckler e Eduardo Winckler
+                <br/>
+                Diretores
+        </span>
+</div>
+<div id="div_aviso" class="div_aviso">
+  <span class="texto_bold_red">
+        Aviso:
+        <br/>
+        <br/>
+        Orientações para o retorno às aulas - 17/08/2009
+  </span>
+        <br/>
+        <br/>
+       [<a href="aviso.html" target="_blank">Leia o texto</a>]
+
 </div>
 <div id="div_evento" class="div_evento">
-	<h1>Últimos Eventos</h1>
-<% 
-	count = 0 
-	for evento in @eventos 
+        <h1>Últimos Eventos</h1>
+<%
+        count = 0
+        for evento in @eventos
 %>
 
-	<div class="div_evento_item" <%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
-		<span class="evento_item_titulo"><%= link_to evento.data.strftime("%d/%m/%Y") + ' - ' + evento.titulo, evento %>
-		<br/>
-		<span class="evento_item_desc"><%= link_to evento.descricao, evento %></span>
-		</span>
-	</div>
+        <div class="div_evento_item" <%= (count % 2 == 0) ? '' : 'style="background-color:#F5F5F5"' %>>
+                <span class="evento_item_titulo"><%= link_to evento.data.strftime("%d/%m/%Y") + ' - ' + evento.titulo, evento %>
+                <br/>
+                <span class="evento_item_desc"><%= link_to evento.descricao, evento %></span>
+                </span>
+        </div>
 
-<% 
-	count = count + 1
-	end 
-%>	
+<%
+        count = count + 1
+        end
+%>
 </div>
-<div id="div_evento_fim" class="div_evento_fim"> 
-	<span><%= link_to "ver todos os eventos (+)", eventos_path %></span>
+<div id="div_evento_fim" class="div_evento_fim">
+        <span><%= link_to "ver todos os eventos (+)", eventos_path %></span>
 </div>
 <div class="clear"></div>
 <div id="prop">
-	<img src="images/convenio.jpg" alt="Positivo" />
-	&nbsp;
-	<img src="images/logo_positivo.jpg" alt="Positivo" />
-	&nbsp;
-	<img src="images/estrelinha_2.gif" alt="Positivo" style="width:120px; height:55px;"/>
+        <img src="images/convenio.jpg" alt="Positivo" />
+        &nbsp;
+        <img src="images/logo_positivo.jpg" alt="Positivo" />
+        &nbsp;
+        <img src="images/estrelinha_2.gif" alt="Positivo" style="width:120px; height:55px;"/>
 </div>

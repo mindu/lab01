@@ -7,21 +7,21 @@ body {
   font-family: Verdana, Geneva, Lucida, Helvetica, sans-serif;
   font-weight: normal;
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 h1 {
-	font-size: 13px;
-	font-weight: bold;
-	color: #DB2A20;
+        font-size: 13px;
+        font-weight: bold;
+        color: #DB2A20;
 }
 h2 {
-	font-size: 12px;
-	text-decoration: underline;
-	font-weight: normal;
+        font-size: 12px;
+        text-decoration: underline;
+        font-weight: normal;
 }
 a{
-	color: #336699;
+        color: #336699;
 }
 #header {
   width: 800px;
@@ -36,8 +36,8 @@ a{
   height: 256px;
   border: 0px solid #000000;
   position:relative;
-  float:left;  
-  background-image:	url(../images/logo01.jpg);  
+  float:left;
+  background-image:     url(../images/logo01.jpg);
  }
  #header_topo1 {
   width: 549px;
@@ -45,7 +45,7 @@ a{
   border: 0px solid #000000;
   position:relative;
   float:left;
-  background-image:	url(../images/topo01.jpg);
+  background-image:     url(../images/topo01.jpg);
  }
 #header_topo2 {
   width: 549px;
@@ -53,9 +53,9 @@ a{
   border: 0px solid #000000;
   position:relative;
   float:left;
-  background-image:	url(../images/topo02.jpg);
- } 
- 
+  background-image:     url(../images/topo02.jpg);
+ }
+
 #header_topo2_menu {
    width: 500px;
    font-weight: bold;
@@ -90,221 +90,221 @@ a{
   margin: 0 auto;
   height: 69px;
   border: 0px solid red;
-  background-image:	url(../images/rodape01.jpg);
+  background-image:     url(../images/rodape01.jpg);
   vertical-align:bottom;
  }
- 
+
  #footer_top {
- 	position:relative;
-	height: 50px;
-	border: 0px solid #000000;
+        position:relative;
+        height: 50px;
+        border: 0px solid #000000;
  }
   #footer_bottom {
- 	position:relative;
-	height: 14px;
-	border: 0px solid #000000;
-	text-align:center;
-	bottom: 0px;
+        position:relative;
+        height: 14px;
+        border: 0px solid #000000;
+        text-align:center;
+        bottom: 0px;
  }
 
 .div_mensagem_direcao{
-	width: 400px;
-	border: 0px solid;
-	position: relative;
-	text-align: justify;
-	float: left;
-	background-color: #FFFFFF;
-	color: #676767;
-	border-bottom:1px dashed #B9B9B9;
-	border-right: 1px dashed #B9B9B9;
-	font-size: 11px;
-	padding: 2px;
+        width: 400px;
+        border: 0px solid;
+        position: relative;
+        text-align: justify;
+        float: left;
+        background-color: #FFFFFF;
+        color: #676767;
+        border-bottom:1px dashed #B9B9B9;
+        border-right: 1px dashed #B9B9B9;
+        font-size: 11px;
+        padding: 2px;
 }
 
 .div_evento{
-	width: 380px;
-	border: 0px solid;
-	position: relative;
-	text-align: justify;
-	right: 5px;
-	float: right;
-	color: #676767;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size: 13px;
+        width: 380px;
+        border: 0px solid;
+        position: relative;
+        text-align: justify;
+        right: 5px;
+        float: right;
+        color: #676767;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13px;
 }
 
 .div_evento_item{
-	width: 380px;
-	border: 0px solid;
-	position:relative;
-	border-bottom:1px dashed #B9B9B9;
-	padding: 5px;
+        width: 380px;
+        border: 0px solid;
+        position:relative;
+        border-bottom:1px dashed #B9B9B9;
+        padding: 5px;
 }
 a {
-	text-decoration:none;
+        text-decoration:none;
 }
 a:hover {
-	text-decoration:underline;
+        text-decoration:underline;
 }
 .evento_item_titulo{
-	position:relative;
-	left: 0px;
-	color:#336699;
-	font-size: 11px;
-	top: 2px;
-	font-weight:bold;
+        position:relative;
+        left: 0px;
+        color:#336699;
+        font-size: 11px;
+        top: 2px;
+        font-weight:bold;
 }
 
 .evento_item_desc{
-	font-weight:normal;
+        font-weight:normal;
 }
 
 .div_evento_fim{
-	width: 180px;
-	border: 0px solid;
-	position: relative;
-	right: 5px;
-	float: right;
-	color: #676767;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	color:#336699;
-	height: 35px;
+        width: 180px;
+        border: 0px solid;
+        position: relative;
+        right: 5px;
+        float: right;
+        color: #676767;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color:#336699;
+        height: 35px;
 }
 
 .div_evento_fim span{
-	position: relative;
-	float:right;
-	bottom: 0px;
+        position: relative;
+        float:right;
+        bottom: 0px;
 }
 
 #texto_italico {
-	font-size: 12px;
-	font-style: italic;	
-	position: relative;
-	bottom: 5px;
+        font-size: 12px;
+        font-style: italic;
+        position: relative;
+        bottom: 5px;
 }
 .rodape {
-	font-size: 10px;
-	font-family: Verdana, Geneva, Lucida, Helvetica, sans-serif;
-	color:#000000;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Lucida, Helvetica, sans-serif;
+        color:#000000;
 }
 .texto_bold {
-	font-weight: bold;
+        font-weight: bold;
 }
 
 #main_content{
-	position: relative;
-	float:left;
-	border: 0px solid #000000;
-	width: 600px;
-	margin: 0 auto;
-	padding: 10px;
+        position: relative;
+        float:left;
+        border: 0px solid #000000;
+        width: 600px;
+        margin: 0 auto;
+        padding: 10px;
 }
 #side_content{
-	position: relative;
-	float: right;
-	border: 0px solid #000000;
-	width: 150px;
-	top: 10px;
+        position: relative;
+        float: right;
+        border: 0px solid #000000;
+        width: 150px;
+        top: 10px;
 }
 
 .calendario {
-	position: relative;
-	float:left;
-	border: 0px solid #000000;
-	padding: 4px;
-	width: 190px;
-	height: 280px;
-	border-bottom:1px dashed #B9B9B9;
+        position: relative;
+        float:left;
+        border: 0px solid #000000;
+        padding: 4px;
+        width: 190px;
+        height: 280px;
+        border-bottom:1px dashed #B9B9B9;
 }
 
 .calendario_topo {
-	position: relative;
-	float:left;
-	border: 0px solid #000000;
-	padding: 4px;
-	width: 585px;
-	text-align:right;
+        position: relative;
+        float:left;
+        border: 0px solid #000000;
+        padding: 4px;
+        width: 585px;
+        text-align:right;
 }
 .calendario table {
-	text-align: center;
-	padding: 4px;
+        text-align: center;
+        padding: 4px;
 }
 .calendario th {
-	background-color:#FFCC00;
-	color:#000000;
+        background-color:#FFCC00;
+        color:#000000;
 }
 .calendario td {
-	background-color:#EEEEEE;
+        background-color:#EEEEEE;
 }
 .calendario_desc{
-	font-size: 11px;
-	position: relative;
-	left: 5px;
-	color: #336699;
+        font-size: 11px;
+        position: relative;
+        left: 5px;
+        color: #336699;
 }
 .calendario_semana td{
-	font-size: 12px;
-	font-weight:bold;
+        font-size: 12px;
+        font-weight:bold;
 }
 .calendario_evento{
-	font-size: 12px;
-	font-weight:bold;
-	color:#0000FF;
+        font-size: 12px;
+        font-weight:bold;
+        color:#0000FF;
 }
 .calendario_feriado{
-	font-size: 12px;
-	font-weight:bold;
-	color:#CC0000;
+        font-size: 12px;
+        font-weight:bold;
+        color:#CC0000;
 }
 #campos_obrigatorio{
-	font-size: 11px;
-	color:#FF8204;
+        font-size: 11px;
+        color:#FF8204;
 }
 #fale_conosco_content{
-	position: relative;
-	float:left;
-	border: 0px solid #000000;
-	width: 350px;
-	margin: 0 auto;
-	padding: 10px;
+        position: relative;
+        float:left;
+        border: 0px solid #000000;
+        width: 350px;
+        margin: 0 auto;
+        padding: 10px;
 }
 #endereco{
-	position: relative;
-	float: right;
-	width: 370px;
-	font-size: 11px;
-	padding: 0px;
-	border:0px dashed #B9B9B9;
-	top: 0px;
-	
+        position: relative;
+        float: right;
+        width: 370px;
+        font-size: 11px;
+        padding: 0px;
+        border:0px dashed #B9B9B9;
+        top: 0px;
+
 }
 #endereco_content{
-	position: relative;
-	float: left;
-	width: 270px;
-	border:0px solid #B9B9B9;
+        position: relative;
+        float: left;
+        width: 270px;
+        border:0px solid #B9B9B9;
 }
 #endereco_side_content{
-	position: relative;
-	float: right;
-	width: 85px;
-	border:0px solid #B9B9B9;	
-	left: 0px;
+        position: relative;
+        float: right;
+        width: 85px;
+        border:0px solid #B9B9B9;
+        left: 0px;
 }
 .texto_bold_red {
-	font-weight: bold;
-	color: #DB2A20;
+        font-weight: bold;
+        color: #DB2A20;
 }
 .formulario th{
-	font-size: 10px;
+        font-size: 10px;
 }
 .submit_button{
-	border:1px solid #B9B9B9;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	width: 80px;
+        border:1px solid #B9B9B9;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        width: 80px;
 }
 /**********************************
 
@@ -312,40 +312,40 @@ Name: cmxform Styles
 
 ***********************************/
 form.cmxform {
-	width: 370px;
-	font-size: 1.0em;
-	color: #333;
+        width: 370px;
+        font-size: 1.0em;
+        color: #333;
 }
 
 form.cmxform legend {
-	padding-left: 0;
+        padding-left: 0;
 }
 
 form.cmxform legend, form.cmxform label {
-	color: #333;
+        color: #333;
 }
 
 form.cmxform fieldset {
-	border: none;
-	border-top: 1px solid #C9DCA6;
-	background: url(../images/cmxform-fieldset.gif) left bottom repeat-x;
-	background-color: #F8FDEF;
+        border: none;
+        border-top: 1px solid #C9DCA6;
+        background: url(../images/cmxform-fieldset.gif) left bottom repeat-x;
+        background-color: #F8FDEF;
 }
 
 form.cmxform fieldset fieldset {
-	background: none;
+        background: none;
 }
 
 form.cmxform fieldset p, form.cmxform fieldset fieldset {
-	padding: 5px 10px 7px;
-	background: url(../images/cmxform-divider.gif) left bottom repeat-x;
+        padding: 5px 10px 7px;
+        background: url(../images/cmxform-divider.gif) left bottom repeat-x;
 }
 
 form.cmxform label.error, label.error {
-	/* remove the next line when you have trouble in IE6 with labels in list */
-	color: red;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
+        /* remove the next line when you have trouble in IE6 with labels in list */
+        color: red;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:10px;
 }
 div.error { display: none; }
 input:focus { border: 1px dotted black; }
@@ -353,64 +353,77 @@ input.error { border: 1px dotted red; }
 form.cmxform .gray * { color: gray; }
 
 .div_eventos{
-	width: 260px;
-	border: 0px solid;
-	position:relative;
-	border-bottom:1px dashed #B9B9B9;
-	padding:5px;
+        width: 260px;
+        border: 0px solid;
+        position:relative;
+        border-bottom:1px dashed #B9B9B9;
+        padding:5px;
 }
 .div_eventos a {
-	text-decoration:none;
+        text-decoration:none;
 }
 .div_eventos a:hover {
-	text-decoration:underline;
+        text-decoration:underline;
 }
 .div_paginacao{
-	width: 250px;
-	border: 0px solid;
-	padding:5px;
-	text-align:center;
-	position:relative;
-	float:left;
+        width: 250px;
+        border: 0px solid;
+        padding:5px;
+        text-align:center;
+        position:relative;
+        float:left;
 }
 #eventos_content{
-	position: relative;
-	float:left;
-	border: 0px solid #000000;
-	width: 280px;
-	margin: 0 auto;
+        position: relative;
+        float:left;
+        border: 0px solid #000000;
+        width: 280px;
+        margin: 0 auto;
 }
 #fotos_content{
-	position: relative;
-	float:left;	
-	border: 1px dashed #B9B9B9;
-	width: 500px;
-	padding:5px;
-	left: 5px;
+        position: relative;
+        float:left;
+        border: 1px dashed #B9B9B9;
+        width: 500px;
+        padding:5px;
+        left: 5px;
 }
 #div_evento_content{
-	border: 0px solid #000000;
-	font-size: 11px;
-	padding: 10px;
+        border: 0px solid #000000;
+        font-size: 11px;
+        padding: 10px;
 }
 .div_foto_fim{
-	border: 0px solid;
-	color: #676767;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	color:#336699;
-	margin: 0 auto;
-	width: 500px;
+        border: 0px solid;
+        color: #676767;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color:#336699;
+        margin: 0 auto;
+        width: 500px;
 }
 
 .div_foto_fim span{
-	position: relative;
-	float:right;
-	bottom: 0px;
+        position: relative;
+        float:right;
+        bottom: 0px;
 }
 #fotos_content2{
-	border: 1px dashed #B9B9B9;
-	width: 500px;
-	padding:5px;
-	margin: 0 auto;
+        border: 1px dashed #B9B9B9;
+        width: 500px;
+        padding:5px;
+        margin: 0 auto;
+}
+
+.div_aviso{
+        width: 370px;
+        border: 1px red dashed;
+        position: relative;
+        text-align: justify;
+        right: 5px;
+        float: right;
+        color: #676767;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        padding:5px;
 }
