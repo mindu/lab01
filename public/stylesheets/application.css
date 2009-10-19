@@ -417,7 +417,7 @@ form.cmxform .gray * { color: gray; }
 
 .div_aviso{
         width: 370px;
-        border: 1px red dashed;
+        border: 1px #FF5959 dashed;
         position: relative;
         text-align: justify;
         right: 5px;
@@ -426,4 +426,9 @@ form.cmxform .gray * { color: gray; }
         font-family:Verdana, Arial, Helvetica, sans-serif;
         font-size: 13px;
         padding:5px;
+        background-color:#FFFFD5;
+}
+
+.informativo{
+        color: #336699;
 }
