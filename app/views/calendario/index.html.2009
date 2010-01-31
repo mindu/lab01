@@ -1,18 +1,18 @@
 						<h1>Calendario</h1><a name="topo">&nbsp;</a>
 						<br/>
 							&nbsp;&nbsp;
-							<a href="#Janeiro">Janeiro</a> |
-							<a href="#Fevereiro">Fevereiro</a> |
-							<a href="#Marco">Março</a> |
-							<a href="#Abril">Abril</a> |
-							<a href="#Maio">Maio</a> |
-							<a href="#Junho">Junho</a> |
-							<a href="#Julho">Julho</a> |
-							<a href="#Agosto">Agosto</a> |
-							<a href="#Setembro">Setembro</a> |
-							<a href="#Outubro">Outubro</a> |
-							<a href="#Novembro">Novembro</a> |
-							<a href="#Dezembro">Dezembro</a>
+							<a href="#Janeiro">Janeiro</a> | 
+							<a href="#Fevereiro">Fevereiro</a> | 
+							<a href="#Marco">Março</a> | 
+							<a href="#Abril">Abril</a> | 
+							<a href="#Maio">Maio</a> | 
+							<a href="#Junho">Junho</a> | 
+							<a href="#Julho">Julho</a> | 
+							<a href="#Agosto">Agosto</a> | 
+							<a href="#Setembro">Setembro</a> | 
+							<a href="#Outubro">Outubro</a> | 
+							<a href="#Novembro">Novembro</a> | 
+							<a href="#Dezembro">Dezembro</a> 
 							<br/>
 							<div id="main_content">
 								<div class="calendario">
@@ -27,65 +27,56 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td>1</td>
 											<td>2</td>
+											<td>3</td>																																																												
 										</tr>
 										<tr>
-											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
 											<td>7</td>
 											<td>8</td>
 											<td>9</td>
+											<td>10</td>																																																												
 										</tr>
 										<tr>
-											<td>10</td>
 											<td>11</td>
 											<td>12</td>
 											<td>13</td>
 											<td>14</td>
 											<td>15</td>
 											<td>16</td>
+											<td>17</td>																																																												
 										</tr>
 										<tr>
-											<td>17</td>
 											<td>18</td>
 											<td>19</td>
 											<td>20</td>
 											<td>21</td>
 											<td>22</td>
 											<td>23</td>
+											<td>24</td>																																																												
 										</tr>
 										<tr>
-											<td>24</td>
 											<td>25</td>
 											<td>26</td>
 											<td>27</td>
 											<td>28</td>
-											<td>29</td>
+											<td>39</td>
 											<td>30</td>
-										</tr>
-										<tr>
-											<td>31</td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-										</tr>
+											<td>31</td>																																																												
+										</tr>																																																						
 									</table>
 									<div class="calendario_desc">
-									</div>
+									</div>									
 								</div>
 								<div class="calendario">
 									<table>
@@ -99,65 +90,67 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
-											<td class="calendario_evento">1</td>
-											<td>2</td>
+											<td>1</td>
+											<td class="calendario_evento">2</td>
 											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
+											<td>7</td>																																																												
 										</tr>
 										<tr>
-											<td>7</td>
 											<td>8</td>
 											<td>9</td>
 											<td>10</td>
 											<td>11</td>
-											<td class="calendario_evento">12</td>
+											<td>12</td>
 											<td>13</td>
+											<td>14</td>																																																												
 										</tr>
 										<tr>
-											<td>14</td>
-											<td class="calendario_feriado">15</td>
-											<td class="calendario_feriado">16</td>
-											<td class="calendario_feriado">17</td>
+											<td>15</td>
+											<td>16</td>
+											<td>17</td>
 											<td>18</td>
 											<td>19</td>
-											<td>20</td>
+											<td class="calendario_evento">20</td>
+											<td>21</td>																																																												
 										</tr>
 										<tr>
-											<td>21</td>
 											<td>22</td>
-											<td>23</td>
-											<td>24</td>
-											<td>25</td>
+											<td class="calendario_feriado">23</td>
+											<td class="calendario_feriado">24</td>
+											<td class="calendario_evento">25</td>
 											<td>26</td>
 											<td>27</td>
+											<td>28</td>																																																												
 										</tr>
 										<tr>
-											<td>28</td>
+											<td>&nbsp;</td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
-											<td></td>
-										</tr>
+											<td></td>																																																												
+										</tr>																																																						
 									</table>
 									<div class="calendario_desc">
-									1 - Início do Ano Letivo
+									2 - Início do Ano Letivo
 									<br/>
-									12 - Festa à Fantasia
+									20 - Festa à Fantasia
 									<br/>
-									15 e 17 - Feriado Escolar
+									23 - Feriado - Escolar
 									<br/>
-									16 - Feriado Carnaval
+									24 - Feriado - Carnaval
 									<br/>
-									* Dias letivos: 17
-									</div>
+									25 - Aula à partir das 13:00 Horas
+									<br/>
+									* Dias letivos: 18									
+									</div>									
 								</div>
 								<div class="calendario">
 									<table>
@@ -171,57 +164,57 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td>1</td>
 											<td>2</td>
 											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
+											<td>7</td>																																																												
 										</tr>
 										<tr>
-											<td>7</td>
 											<td>8</td>
 											<td>9</td>
 											<td>10</td>
 											<td>11</td>
 											<td>12</td>
 											<td>13</td>
+											<td>14</td>																																																												
 										</tr>
 										<tr>
-											<td>14</td>
 											<td>15</td>
 											<td>16</td>
 											<td>17</td>
 											<td>18</td>
 											<td>19</td>
 											<td>20</td>
+											<td>21</td>																																																												
 										</tr>
 										<tr>
-											<td>21</td>
 											<td>22</td>
 											<td>23</td>
 											<td>24</td>
 											<td>25</td>
 											<td>26</td>
 											<td>27</td>
+											<td>28</td>																																																												
 										</tr>
 										<tr>
-											<td>28</td>
 											<td>29</td>
 											<td>30</td>
 											<td>31</td>
 											<td></td>
 											<td></td>
 											<td></td>
-										</tr>
+											<td></td>																																																												
+										</tr>																																																						
 									</table>
 									<div class="calendario_desc">
-									* Dias letivos: 23
-									</div>
+									* Dias letivos: 22									
+									</div>									
 								</div>
 								<div class="calendario_topo">
 									<a href="#topo">Topo</a>
@@ -238,69 +231,70 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
 											<td></td>
 											<td></td>
 											<td></td>
-											<td></td>
-											<td class="calendario_evento">1</td>
-											<td class="calendario_feriado">2</td>
+											<td>1</td>
+											<td>2</td>
 											<td>3</td>
+											<td>4</td>																																																												
 										</tr>
 										<tr>
-											<td>4</td>
-											<td class="calendario_evento">5</td>
+											<td>5</td>
 											<td class="calendario_evento">6</td>
 											<td class="calendario_evento">7</td>
 											<td class="calendario_evento">8</td>
 											<td class="calendario_evento">9</td>
-											<td>10</td>
+											<td class="calendario_feriado">10</td>
+											<td>11</td>																																																												
 										</tr>
 										<tr>
-											<td>11</td>
 											<td>12</td>
-											<td>13</td>
+											<td class="calendario_feriado">13</td>
 											<td class="calendario_feriado">14</td>
-											<td>15</td>
-											<td class="calendario_evento">16</td>
+											<td class="calendario_evento">15</td>
+											<td>16</td>
 											<td>17</td>
+											<td>18</td>																																																												
 										</tr>
 										<tr>
-											<td>18</td>
 											<td>19</td>
-											<td>20</td>
+											<td class="calendario_feriado">20</td>
 											<td class="calendario_feriado">21</td>
 											<td>22</td>
 											<td>23</td>
 											<td>24</td>
+											<td class="calendario_feriado">25</td>																																																												
 										</tr>
 										<tr>
-											<td>25</td>
 											<td>26</td>
 											<td>27</td>
 											<td>28</td>
 											<td>29</td>
 											<td>30</td>
 											<td></td>
-										</tr>
+											<td></td>																																																												
+										</tr>																																																						
 									</table>
 									<div class="calendario_desc">
-									1 Festa do Coelho
+									6-7-8-9-15 Semana de Avaliação do Ensino Fundamental
 									<br/>
-									2 Feriado Paixão de Cristo
+									10 Feriado - Paixão de Cristo
 									<br/>
-									5 à 9 Semana de Avaliação do Ensino Fundamental
+									13 Feriado - Escolar
 									<br/>
-									14 Feriado Aniversário da Cidade
+									14 Feriado - Aniversário da Cidade
 									<br/>
-									16 Reunião Bimestral
+									20 Feriado - Escolar
 									<br/>
-									21 Feriado Tiradentes
+									21 Feriado - Tiradentes
 									<br/>
-									* Dias letivos: 19
-									</div>
+									25 Feriado - Reunião Bimestral
+									* Dias letivos: 18									
+									</div>									
 								</div>
 								<div class="calendario">
 									<table>
@@ -314,69 +308,69 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td class="calendario_feriado">1</td>
+											<td>2</td>																																																												
 										</tr>
 										<tr>
-											<td>2</td>
 											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
 											<td>7</td>
 											<td>8</td>
+											<td>9</td>																																																												
 										</tr>
 										<tr>
-											<td>9</td>
 											<td>10</td>
 											<td>11</td>
 											<td>12</td>
 											<td>13</td>
 											<td>14</td>
 											<td>15</td>
+											<td>16</td>																																																												
 										</tr>
 										<tr>
-											<td>16</td>
 											<td>17</td>
 											<td>18</td>
 											<td>19</td>
 											<td>20</td>
 											<td>21</td>
 											<td>22</td>
+											<td>23</td>
 										</tr>
 										<tr>
-											<td>23</td>
 											<td>24</td>
 											<td>25</td>
 											<td>26</td>
 											<td>27</td>
 											<td>28</td>
 											<td>29</td>
+											<td>30</td>																																																												
 										</tr>
 										<tr>
-											<td>30</td>
 											<td>31</td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
-										</tr>
+											<td></td>																																																												
+										</tr>																																																																
 									</table>
 									<div class="calendario_desc">
 									1 Dia do Trabalho
 									<br/>
-									Festa das Mães - Data a confirmar
+									Festa das Mães - Data à confirmar
 									<br/>
-									* Dias letivos: 21
+									* Dias letivos: 21									
 									</div>
 								</div>
 								<div class="calendario">
@@ -391,69 +385,72 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td>1</td>
 											<td>2</td>
-											<td class="calendario_feriado">3</td>
-											<td class="calendario_feriado">4</td>
+											<td>3</td>
+											<td>4</td>
 											<td>5</td>
+											<td>6</td>																																																												
 										</tr>
 										<tr>
-											<td>6</td>
 											<td>7</td>
+
 											<td>8</td>
 											<td>9</td>
 											<td>10</td>
-											<td>11</td>
-											<td class="calendario_evento">12</td>
+											<td class="calendario_feriado">11</td>
+											<td class="calendario_feriado">12</td>
+											<td>13</td>																																																												
 										</tr>
 										<tr>
-											<td>13</td>
 											<td>14</td>
 											<td>15</td>
 											<td>16</td>
 											<td>17</td>
 											<td>18</td>
 											<td>19</td>
+											<td>20</td>																																																												
 										</tr>
 										<tr>
-											<td>20</td>
-											<td class="calendario_evento">21</td>
+											<td>21</td>
 											<td class="calendario_evento">22</td>
 											<td class="calendario_evento">23</td>
 											<td class="calendario_evento">24</td>
 											<td class="calendario_evento">25</td>
-											<td>26</td>
+											<td class="calendario_evento">26</td>
+											<td>27</td>
 										</tr>
 										<tr>
-											<td>27</td>
 											<td>28</td>
 											<td>29</td>
 											<td>30</td>
 											<td></td>
 											<td></td>
 											<td></td>
+											<td></td>																																																												
 										</tr>
 									</table>
 									<div class="calendario_desc">
-									3 Feriado Corpus Christi
+									6 Festa Junina (ACL)
 									<br/>
-									4 Feriado Escolar
+									11 Feriado - Corpus Christi
 									<br/>
-									12 Festa Junina (ACL)
+									12 Feriado - Escolar
 									<br/>
-									21 à 25 Semana de Avaliação do Ensino Fundamental
+									22 à 26 Semana de Avaliação do Ensino Fundamental
 									<br/>
-									* Dias letivos: 21
+									Festa de Aniversário da Escola
+									<br/>
+									* Dias letivos: 21									
 									</div>
 								</div>
 								<div class="calendario_topo">
 									<a href="#topo">Topo</a>
-								</div>
+								</div>								
 								<div class="calendario">
 									<table>
 										<tr>
@@ -466,61 +463,65 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td>1</td>
-											<td>2</td>
-											<td class="calendario_feriado">3</td>
+											<td class="calendario_feriado">2</td>
+											<td>3</td>
+											<td>4</td>																																																												
 										</tr>
 										<tr>
-											<td>4</td>
-											<td class="calendario_feriado">5</td>
+											<td>5</td>
 											<td class="calendario_feriado">6</td>
 											<td class="calendario_feriado">7</td>
 											<td class="calendario_feriado">8</td>
 											<td class="calendario_feriado">9</td>
-											<td>10</td>
+											<td class="calendario_feriado">10</td>
+											<td class="calendario_feriado">11</td>																																																												
 										</tr>
 										<tr>
-											<td>11</td>
 											<td class="calendario_feriado">12</td>
 											<td class="calendario_feriado">13</td>
 											<td class="calendario_feriado">14</td>
 											<td class="calendario_feriado">15</td>
 											<td class="calendario_feriado">16</td>
-											<td>17</td>
+											<td class="calendario_feriado">17</td>
+											<td class="calendario_feriado">18</td>																																																												
 										</tr>
 										<tr>
-											<td>18</td>
 											<td class="calendario_feriado">19</td>
 											<td class="calendario_feriado">20</td>
 											<td class="calendario_feriado">21</td>
 											<td class="calendario_feriado">22</td>
 											<td class="calendario_feriado">23</td>
-											<td>24</td>
+											<td class="calendario_feriado">24</td>
+											<td class="calendario_feriado">25</td>																																																												
 										</tr>
 										<tr>
-											<td>25</td>
 											<td class="calendario_feriado">26</td>
-											<td class="calendario_feriado">27</td>
-											<td class="calendario_feriado">28</td>
-											<td class="calendario_feriado">29</td>
-											<td class="calendario_feriado">30</td>
-											<td>31</td>
-										</tr>
+											<td class="calendario_evento">27</td>
+											<td>28</td>
+											<td>29</td>
+											<td>30</td>
+											<td></td>
+											<td></td>																																																												
+										</tr>																																																						
 									</table>
 									<div class="calendario_desc">
-									3 Sábado Letivo Reunião Bimestral
+									2 Feriado - Reunião Bimestral
 									<br/>
-									5 à 30 Férias
+									6 à 26 Férias
 									<br/>
-									* Dias letivos: 3
-									</div>
+									27 Volta as Aulas
+									<br/>
+									Início do 2º Semestre
+									<br/>
+									* Dias letivos: 8									
+									</div>									
 								</div>
 								<div class="calendario">
 									<table>
@@ -534,60 +535,67 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td>1</td>
-											<td class="calendario_evento">2</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td>1</td>																																																												
+										</tr>
+										<tr>
+											<td>2</td>
 											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
 											<td>7</td>
+											<td>8</td>																																																												
 										</tr>
 										<tr>
-											<td>8</td>
 											<td>9</td>
-											<td>10</td>
+											<td>12</td>
 											<td>11</td>
 											<td>12</td>
 											<td>13</td>
 											<td>14</td>
+											<td>15</td>																																																												
 										</tr>
 										<tr>
-											<td>15</td>
 											<td>16</td>
 											<td>17</td>
 											<td>18</td>
 											<td>19</td>
 											<td>20</td>
 											<td>21</td>
+											<td>22</td>
 										</tr>
 										<tr>
-											<td>22</td>
 											<td>23</td>
 											<td>24</td>
 											<td>25</td>
 											<td>26</td>
 											<td>27</td>
 											<td>28</td>
+											<td>29</td>																																																												
 										</tr>
 										<tr>
-											<td>29</td>
 											<td>30</td>
 											<td>31</td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
-										</tr>
+											<td></td>																																																												
+										</tr>																																																																
 									</table>
 									<div class="calendario_desc">
-									2 Volta às aulas 2º Semestre
+									Festa dos Pais - Data à confirmar
 									<br/>
-									Festa Dia dos Pais - Data à confirmar
-									<br/>
-									* Dias letivos: 22
+									* Dias letivos: 21									
 									</div>
 								</div>
 								<div class="calendario">
@@ -602,69 +610,67 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td></td>
 											<td>1</td>
 											<td>2</td>
 											<td>3</td>
 											<td>4</td>
+											<td>5</td>																																																												
 										</tr>
 										<tr>
-											<td>5</td>
-											<td class="calendario_feriado">6</td>
+											<td>6</td>
 											<td class="calendario_feriado">7</td>
 											<td>8</td>
 											<td>9</td>
 											<td>10</td>
 											<td>11</td>
+											<td>12</td>																																																												
 										</tr>
 										<tr>
-											<td>12</td>
 											<td>13</td>
 											<td>14</td>
 											<td>15</td>
 											<td>16</td>
 											<td>17</td>
 											<td>18</td>
+											<td>19</td>																																																												
 										</tr>
 										<tr>
-											<td>19</td>
-											<td class="calendario_evento">20</td>
+											<td>20</td>
 											<td class="calendario_evento">21</td>
 											<td class="calendario_evento">22</td>
 											<td class="calendario_evento">23</td>
 											<td class="calendario_evento">24</td>
 											<td class="calendario_evento">25</td>
+											<td>26</td>
 										</tr>
 										<tr>
-											<td>26</td>
 											<td>27</td>
 											<td>28</td>
 											<td>29</td>
 											<td>30</td>
 											<td></td>
 											<td></td>
+											<td></td>																																																												
 										</tr>
 									</table>
 									<div class="calendario_desc">
-									6 Feriado Escolar
+									7 Feriado - Independência do Brasil
 									<br/>
-									7 Feriado Independência do Brasil
+									21 à 25 Semana de Avaliação do Ensino Fundamental
 									<br/>
-									20 à 24 Semana de Avaliação do Ensino Fundamental
+									Festa da Primavera - Data à confirmar (ACL)
 									<br/>
-									25 Festa da Primavera (ACL)
-									<br/>
-									* Dias letivos: 21
+									* Dias letivos: 22									
 									</div>
 								</div>
 								<div class="calendario_topo">
 									<a href="#topo">Topo</a>
-								</div>
+								</div>								
 								<div class="calendario">
 									<table>
 										<tr>
@@ -677,72 +683,67 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td>1</td>
 											<td>2</td>
+											<td class="calendario_feriado">3</td>																																																												
 										</tr>
 										<tr>
-											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
 											<td>7</td>
-											<td class="calendario_evento">8</td>
-											<td>9</td>
+											<td>8</td>
+											<td class="calendario_evento">9</td>
+											<td>10</td>
 										</tr>
 										<tr>
-											<td>10</td>
-											<td class="calendario_feriado">11</td>
+											<td>11</td>
 											<td class="calendario_feriado">12</td>
 											<td>13</td>
 											<td>14</td>
 											<td>15</td>
-											<td>16</td>
+											<td class="calendario_evento">16</td>
+											<td>17</td>
 										</tr>
 										<tr>
-											<td>17</td>
 											<td>18</td>
 											<td>19</td>
 											<td>20</td>
 											<td>21</td>
 											<td>22</td>
 											<td>23</td>
+											<td class="calendario_evento">24</td>
 										</tr>
 										<tr>
-											<td>24</td>
 											<td>25</td>
 											<td>26</td>
 											<td>27</td>
 											<td>28</td>
 											<td>29</td>
 											<td>30</td>
-										</tr>
-										<tr>
-											<td>31</td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-										</tr>
+											<td>31</td>																																																												
+										</tr>																																																						
 									</table>
 									<div class="calendario_desc">
-									8 Festa das Crianças
+									3 Feriado - Reunião Bimestral
 									<br/>
-									11 Feriado Antecipado Dia do professor
+									9 Festa das crianças
 									<br/>
-									12 Feriado Nossa Senhora Aparecida
+									12 Feriado - Nossa Senhora Aparecida
 									<br/>
-									* Dias letivos: 19
-									</div>
+									16 Feriado - Dia do professor
+									<br/>
+									24 Passeio ao Zoológico Bauru
+									<br/>
+									* Dias letivos: 21									
+									</div>									
 								</div>
 								<div class="calendario">
 									<table>
@@ -756,64 +757,62 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
-											<td class="calendario_feriado">1</td>
+											<td>1</td>
 											<td class="calendario_feriado">2</td>
 											<td>3</td>
 											<td>4</td>
 											<td>5</td>
 											<td>6</td>
+											<td>7</td>																																																												
 										</tr>
 										<tr>
-											<td>7</td>
 											<td>8</td>
 											<td>9</td>
 											<td>10</td>
 											<td>11</td>
 											<td>12</td>
 											<td>13</td>
+											<td>14</td>																																																												
 										</tr>
 										<tr>
-											<td>14</td>
-											<td class="calendario_feriado">15</td>
+											<td>15</td>
 											<td>16</td>
 											<td>17</td>
 											<td>18</td>
 											<td>19</td>
 											<td>20</td>
+											<td>21</td>																																																												
 										</tr>
 										<tr>
-											<td>21</td>
 											<td>22</td>
 											<td>23</td>
 											<td>24</td>
 											<td>25</td>
 											<td>26</td>
 											<td>27</td>
+											<td>28</td>
 										</tr>
 										<tr>
-											<td>28</td>
-											<td class="calendario_evento">29</td>
+											<td>29</td>
 											<td class="calendario_evento">30</td>
 											<td></td>
 											<td></td>
 											<td></td>
 											<td></td>
+											<td></td>																																																												
 										</tr>
 									</table>
 									<div class="calendario_desc">
-									1 Feriado Escolar
+									2 Feriado - Finados
 									<br/>
-									2 Feriado Finados
+									30 Semana de Avaliação do Ensino Fundamental
 									<br/>
-									15 Feriado Proclamação da República
+									Formatura - Data à confirmar
 									<br/>
-									29 à 03/12 Semana de Avaliação do Ensino Fundamental
-									<br/>
-									* Dias letivos: 19
+									* Dias letivos: 20									
 									</div>
 								</div>
 								<div class="calendario">
@@ -828,70 +827,68 @@
 											<td>Q</td>
 											<td>Q</td>
 											<td>S</td>
-											<td>S</td>
+											<td>S</td>																																																												
 										</tr>
 										<tr>
-											<td></td>
 											<td></td>
 											<td></td>
 											<td class="calendario_evento">1</td>
 											<td class="calendario_evento">2</td>
 											<td class="calendario_evento">3</td>
-											<td>4</td>
+											<td class="calendario_evento">4</td>
+											<td>5</td>																																																												
 										</tr>
 										<tr>
-											<td>5</td>
 											<td>6</td>
 											<td>7</td>
 											<td>8</td>
 											<td>9</td>
 											<td>10</td>
 											<td class="calendario_evento">11</td>
+											<td class="calendario_feriado">12</td>																																																												
 										</tr>
 										<tr>
-											<td>12</td>
-											<td>13</td>
-											<td class="calendario_evento">14</td>
+											<td class="calendario_evento">13</td>
+											<td>14</td>
 											<td>15</td>
 											<td>16</td>
-											<td class="calendario_evento">17</td>
-											<td class="calendario_evento">18</td>
+											<td>17</td>
+											<td>18</td>
+											<td>19</td>																																																												
 										</tr>
 										<tr>
-											<td>19</td>
 											<td>20</td>
 											<td>21</td>
 											<td>22</td>
 											<td>23</td>
 											<td>24</td>
 											<td>25</td>
+											<td>26</td>
 										</tr>
 										<tr>
-											<td>26</td>
 											<td>27</td>
 											<td>28</td>
 											<td>29</td>
 											<td>30</td>
 											<td>31</td>
 											<td></td>
+											<td></td>																																																												
 										</tr>
 									</table>
 									<div class="calendario_desc">
-									29/11 à 3 Semana de Avaliação do Ensino Fundamental
+									1 à 4 Semana de Avaliação do Ensino Fundamental
 									<br/>
-									11 Festa de Encerramento
+									11 - Término do 2º Semestre - Férias
 									<br/>
-									14 Reunião Bimestreal
+									12 Feriado - Reunião Bimestral
 									<br/>
-									17 Férias Término do 2º Semestre
+									13 Festa de encerramento
 									<br/>
-									18 Recuperação Semestral
-									<br/>
-									* Dias letivos: 15
+									* Dias letivos: 10									
 									</div>
-								</div>
+								</div>																																																									
 							</div>
-
+							
 							<div id="side_content">
 								<img src="images/calendario-27-08-08.jpg" height="150" width="150" style="border: 0px;" />
 							</div>
